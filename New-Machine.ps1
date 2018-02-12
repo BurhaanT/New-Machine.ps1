@@ -48,7 +48,7 @@ if (-not ((Get-PackageSource -Name chocolatey).IsTrusted)) {
     "teamviewer",
     "wunderlist",
     "authy-desktop",
-    "onenote";
+    "onenote",
     "docker"
 ) | % {
     Write-Progress -Activity "Installing $_"
